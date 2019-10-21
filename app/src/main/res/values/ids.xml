@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item type="id" name="bus_search"/>
+     <item type="id" name="bus_ticket"/>
+     <item type="id" name="bus_status"/>
+     <item type="id" name="about_us"/>
+     <item type="id" name="search_bus_layout"/>
+     <item type="id" name="from"/>
+     <item type="id" name="to"/>
+    
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+    <ScrollView android:background="@color/bus_route_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bus_route_background"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <LinearLayout
+            android:id="@id/bus_search"
+            style="@style/linearbuttonstyle"
+            android:onClick="bussearch" >
+
+            <ImageView
+                style="@style/iconbuttonstyle"
+                android:background="@color/icon_background"
+                android:contentDescription="@string/search_bus"
+                android:src="@drawable/search_bus" />
+
+            <LinearLayout
+                style="@style/textbuttonstyle"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/textbuttonendstyle"
+                    android:text="@string/search_bus" />
+            </LinearLayout>
+
+            <ImageView style="@style/arrowbuttonstyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/bus_ticket"
+            style="@style/linearbuttonstyle"
+            android:onClick="bookticket" >
+
+            <ImageView
+                style="@style/iconbuttonstyle"
+                android:background="@color/icon_background"
+                android:contentDescription="@string/bus_ticket"
+                android:src="@drawable/bus_ticket" />
+
+            <LinearLayout
+                style="@style/textbuttonstyle"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/textbuttonendstyle"
+                    android:text="@string/bus_ticket" />
+            </LinearLayout>
+
+            <ImageView style="@style/arrowbuttonstyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/bus_status"
+            style="@style/linearbuttonstyle"
+            android:onClick="busstatus" >
+
+            <ImageView
+                style="@style/iconbuttonstyle"
+                android:background="@color/icon_background"
+                android:contentDescription="@string/bus_status"
+                android:src="@drawable/bus_status" />
+
+            <LinearLayout
+                style="@style/textbuttonstyle"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/textbuttonendstyle"
+                    android:text="@string/bus_status" />
+            </LinearLayout>
+
+            <ImageView style="@style/arrowbuttonstyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/about_us"
+            style="@style/linearbuttonstyle"
+            android:onClick="aboutus" >
+
+            <ImageView
+                style="@style/iconbuttonstyle"
+                android:background="@color/icon_background"
+                android:contentDescription="@string/about_us"
+                android:src="@drawable/about_us" />
+
+            <LinearLayout
+                style="@style/textbuttonstyle"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/textbuttonendstyle"
+                    android:text="@string/about_us" />
+            </LinearLayout>
+
+            <ImageView style="@style/arrowbuttonstyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

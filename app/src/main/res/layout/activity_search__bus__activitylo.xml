@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="" 
+        android:maxLength="25"
+        android:inputType="textAutoComplete"
+        android:hint="@string/from"
+        android:nextFocusDown="@+id/autoCompleteTextView2">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="" 
+        android:maxLength="25"
+        android:inputType="textAutoComplete"
+        android:hint="@string/to"
+        android:nextFocusDown="@+id/editText1"/>
+<LinearLayout android:id="@+id/calender" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+<TextView android:id="@+id/Text1"
+android:layout_width="wrap_content"
+android:layout_height="38dip"
+android:layout_marginTop="25dp"
+android:ems="10"
+android:background="@color/d2d2d2"
+style="@style/textbuttonendstyle"
+android:textColor="@color/black"
+android:nextFocusDown="@+id/spinner2"/>
+<ImageButton
+android:id="@+id/imageButton1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+android:contentDescription="@string/calender"
+android:cropToPadding="true"
+android:onClick="selectDate"
+android:src="@drawable/icon_calendar" />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:text="@string/coach_prompt"
+    android:visibility="gone"/>
+
+<LinearLayout android:id="@+id/coach" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:visibility="gone">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/coach_array"
+        android:prompt="@string/coach_prompt"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"/>
+
+</LinearLayout>
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:text="@string/seat_prompt"
+    />
+<LinearLayout android:id="@+id/seat" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/seat_array"
+        android:prompt="@string/seat_prompt"
+        android:spinnerMode="dropdown"
+       />
+
+</LinearLayout>
+<LinearLayout android:id="@+id/ok" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="30dp">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_button"
+    android:text="@string/ok"
+    android:textColor="@color/white"
+    android:textStyle="bold" />
+
+</LinearLayout>
+</LinearLayout>
+

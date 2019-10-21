@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icon_background">#666666</color>
+    <color name="button_text_color">#ff353535</color>
+    <color name="bus_route_background">#fff1f1ef</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="back_about_us">#d6d6d6</color>
+    <color name="fav1">#333333</color>
+    <color name="fav2">#336633</color>
+    <color name="orange">#ffa500</color>
+    <color name="e4e4e4">#e4e4e4</color>
+    <color name="ff9900">#ff9900</color>
+    <color name="a1a8bc0">#1a8bc0</color>
+    <color name="d2d2d2">#d2d2d2</color>
+</resources>

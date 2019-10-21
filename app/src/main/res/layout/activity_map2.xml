@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:visibility="invisible"
+          android:layout_marginLeft="100dip"/>
+      
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:orientation="horizontal" 
+    android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="110dip"
+                android:layout_marginLeft="5dp"
+                
+                android:layout_height="wrap_content"
+                android:background="@color/e4e4e4"
+                android:text="@string/pickup"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                
+                android:text="Baroda"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dip"
+    android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="110dip"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/e4e4e4"
+                android:text="@string/drop"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                
+                android:text="Surat"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dip"
+android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="110dip"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/e4e4e4"
+                android:text="@string/time"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                 />
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                
+                android:text="3 H 30 M To 5 H 30M"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:gravity="center_horizontal">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_button"
+    android:text="@string/livestatuss"
+    android:textColor="@color/white"
+    android:layout_marginTop="10dip"
+    android:textStyle="bold" 
+    android:layout_weight="1.0"/>
+
+
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="140dp"
+    android:layout_marginTop="10dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_button"
+    android:text="@string/runningstatuss"
+    android:textColor="@color/white"
+    android:textStyle="bold" 
+    android:layout_weight="1.0"/>
+
+
+
+
+  </LinearLayout>
+      
+      
+    
+</LinearLayout>

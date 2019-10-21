@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gsrtcandroidapps" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gujarat"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.example.gsrtcandroidapps.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>>
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Search_Bus_Activity"
+            android:label="@string/title_activity_search_bus"
+            android:parentActivityName="com.example.gsrtcandroidapps.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Book_Ticket"
+            android:label="@string/title_activity_book_ticket"
+            android:parentActivityName="com.example.gsrtcandroidapps.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Bus_Status"
+            android:label="@string/title_activity_bus_status"
+            android:parentActivityName="com.example.gsrtcandroidapps.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.About_Us"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName="com.example.gsrtcandroidapps.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Search_Bus_Details"
+            android:label="@string/title_activity_search__bus__details"
+            android:parentActivityName="com.example.gsrtcandroidapps.Search_Bus_Activity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.Search_Bus_Activity" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.User_Login"
+            android:label="@string/title_activity_user__login" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.User_Book_Ticket"
+            android:label="@string/title_activity_user__book__ticket"
+            android:parentActivityName="com.example.gsrtcandroidapps.User_Login" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.User_Login" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.User_Cancel_Ticket"
+            android:label="@string/title_activity_user__cancel__ticket"
+            android:parentActivityName="com.example.gsrtcandroidapps.User_Login" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.User_Login" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.User_Book_History"
+            android:label="@string/title_activity_user__book__history"
+            android:parentActivityName="com.example.gsrtcandroidapps.User_Login" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.User_Login" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Search_Bus_Activitylo"
+            android:label="@string/title_activity_search__bus__activitylo" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Search_Bus_Detailslo"
+            android:label="@string/title_activity_search__bus__detailslo" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Addip"
+            android:label="@string/title_activity_addip" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Internalstation"
+            android:label="@string/title_activity_internalstation"
+            >
+             android:parentActivityName="com.example.gsrtcandroidapps.User_Login" >
+
+
+
+
+
+
+
+
+
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.Search_Bus_Details" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Seating"
+            android:label="@string/title_activity_seating" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.PassengerDetails"
+            android:label="@string/title_activity_passenger_details" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.Map2"
+            android:label="@string/title_activity_map2"
+            android:parentActivityName="com.example.gsrtcandroidapps.Bus_Status" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.Bus_Status" />
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.MapWeb"
+            android:label="@string/title_activity_map_web" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.PaymentPage"
+            android:label="@string/title_activity_payment_page" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.PrintTicket"
+            android:label="@string/title_activity_print_ticket" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.CancelTicketPage"
+            android:label="@string/title_activity_cancel_ticket_page" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.SleeperSeating"
+            android:label="@string/title_activity_sleeper_seating" >
+        </activity>
+        <activity
+            android:name="com.example.gsrtcandroidapps.BusStatusLive"
+            android:label="@string/title_activity_bus_status_live"
+              android:parentActivityName="com.example.gsrtcandroidapps.Bus_Status" >
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gsrtcandroidapps.Bus_Status" />
+        </activity>
+    </application>
+
+</manifest>

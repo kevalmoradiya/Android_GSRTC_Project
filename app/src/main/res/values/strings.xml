@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GSRTC</string>
+    <string name="paymentdetail">Payment Details :</string>
+    <string name="print">Save Ticket</string>
+    <string name="bankname">Bank Name*</string>
+    <string name="cardtype">Card Type*</string>
+    <string name="cardnumber">Card Number*</string>
+    <string name="expirydate">Expiry Date*</string>
+    <string name="securitycode">Security Code*</string>
+    <string name="faredetail">Fare Details :</string>
+    <string name="basicfare">Basic Fare</string>
+    <string name="Discounts">Discounts</string>
+    <string name="Reservationfee">Reservation Fee</string>
+    <string name="servicecharge">Service Charge</string>
+    <string name="grandtotal">Grand Total</string>
+    <string name="currents">Current Status</string>
+    <string name="livestatuss">Live Status</string>
+    <string name="runningstatuss">Running Status</string>
+    <string name="okay">OK</string>
+    <string name="enterbustrip">Bus Route No</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hi Enter Your Search</string>
+    <string name="search_bus">Search Bus</string>
+    <string name="next_arrow">Next</string>
+    <string name="bus_ticket">Book Ticket</string>
+    <string name="about_us">About Us</string>
+    <string name="bus_status">Live Bus Status</string>
+    <string name="title_activity_search_bus">Search Bus</string>
+    <string name="title_activity_book_ticket">Book Ticket</string>
+    <string name="title_activity_bus_status">Live Bus Status</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="ok">SHOW BUS</string>
+    <string name="calender">Select Date</string>
+    <string name="coach_prompt">Select coach</string>
+    <string name="id_prompt">ID Card</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="pro">Passenger Category</string>
+    <string name="pk">Category*</string>
+    <string name="seat_prompt">Select seat</string>
+    <string name="upper">Upper Sofa</string>
+    <string name="lower">Lower Sofa</string>
+
+    <string-array name="coach_array">
+        <item>Sleeper</item>
+        <item>Seating</item>
+        <item>Ac-Sleeper</item>
+        <item>Ac-Seating</item>
+    </string-array>
+    <string-array name="passengercategory">
+        <item>General Public</item>
+        <item>Senior Citizen</item>
+        <item>VIP</item>
+    </string-array>
+    <string-array name="idcardtype">
+        <item>Driving License</item>
+        <item>Election Card</item>
+        <item>Aadhar Card</item>
+        <item>Pan Card</item>
+    </string-array>
+    <string-array name="seat_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="visa_array">
+        <item>VISA Card</item>
+        <item>MASTERO Card</item>
+    </string-array>
+
+    <string name="gender">Gender*</string>
+    <string name="title_activity_search__bus__details">Bus Details</string>
+    <string name="usernameh">username</string>
+    <string name="passwordh">*****</string>
+    <string name="title_activity_user__login">User Login</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="cancel_ticket">Cancel Ticket</string>
+    <string name="booking_history">Booking History</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_user__book__ticket">Booking</string>
+    <string name="title_activity_user__cancel__ticket">Cancelling</string>
+    <string name="title_activity_user__book__history">Booking History</string>
+    <string name="title_activity_error_a">Error_a</string>
+    <string name="title_activity_user__login__page">User Login</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_search__bus__activitylo">Search Bus</string>
+    <string name="title_activity_search__bus__detailslo">Bus Details</string>
+    <string name="title_activity_addip">Addip</string>
+    <string name="title_activity_internalstation">Internal Station</string>
+    <string name="title_activity_seating">Seating</string>
+    <string name="s1">1</string>
+    <string name="s2">2</string>
+    <string name="s3">3</string>
+    <string name="s4">4</string>
+    <string name="s5">5</string>
+    <string name="s6">6</string>
+    <string name="s7">7</string>
+    <string name="s8">8</string>
+    <string name="s9">9</string>
+    <string name="s10">10</string>
+    <string name="s11">11</string>
+    <string name="s12">12</string>
+    <string name="s13">13</string>
+    <string name="s14">14</string>
+    <string name="s15">15</string>
+    <string name="s16">16</string>
+    <string name="s17">17</string>
+    <string name="s18">18</string>
+    <string name="s19">19</string>
+    <string name="s20">20</string>
+    <string name="s21">21</string>
+    <string name="s22">22</string>
+    <string name="s23">23</string>
+    <string name="s24">24</string>
+    <string name="s25">25</string>
+    <string name="s26">26</string>
+    <string name="s27">27</string>
+    <string name="s28">28</string>
+    <string name="s29">29</string>
+    <string name="s30">30</string>
+    <string name="s31">31</string>
+    <string name="s32">32</string>
+    <string name="s33">33</string>
+    <string name="s34">34</string>
+    <string name="s35">35</string>
+    <string name="s36">36</string>
+    <string name="s37">37</string>
+    <string name="s38">38</string>
+    <string name="s39">39</string>
+    <string name="s40">40</string>
+    <string name="s41">41</string>
+    <string name="s42">42</string>
+    <string name="s43">43</string>
+    <string name="s44">44</string>
+    <string name="s45">45</string>
+    <string name="s46">46</string>
+    <string name="s47">47</string>
+    <string name="s48">48</string>
+    <string name="s49">49</string>
+    <string name="s50">50</string>
+    <string name="s51">51</string>
+    <string name="available">Available</string>
+    <string name="booked">Booked</string>
+    <string name="selected">Selected</string>
+    <string name="proceed">Proceed</string>
+    <string name="title_activity_passenger_details">Passenger Details</string>
+    <string name="passenger">Passenger Details :</string>
+    <string name="name">Name*</string>
+    <string name="age">Age*</string>
+    <string name="idcardtype">ID Card Type*</string>
+    <string name="idcardno">ID Card No.*</string>
+    <string name="contact">Contact Details :</string>
+    <string name="addr">Address</string>
+    <string name="city">City</string>
+    <string name="pin">Pin Code</string>
+    <string name="phone">Phone*</string>
+    <string name="email">Email ID*</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="tripsummary">Trip Summary :</string>
+    <string name="time">Time</string>
+    <string name="seats">No. Of Seats</string>
+    <string name="adult">No. Of Adults*</string>
+    <string name="child">No. Of Childs*</string>
+    <string name="journeydate">Journey Date</string>
+    <string name="pickup">Pickup Point</string>
+    <string name="drop">Drop Point</string>
+    <string name="title_activity_map2">Map2</string>
+    <string name="title_activity_map_web">Map View</string>
+    <string name="title_activity_payment_page">PaymentPage</string>
+    <string name="title_activity_print_ticket">PrintTicket</string>
+    <string name="title_activity_cancel_ticket_page">Cancel Ticket</string>
+    <string name="title_activity_sleeper_seating">Sleeper Seating</string>
+    <string name="title_activity_bus_status_live">Running Status</string>
+
+</resources>

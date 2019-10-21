@@ -1,0 +1,4 @@
+#Mon Jul 29 13:13:08 NZST 2019
+base.0=C\:\\Users\\KMPC\\AndroidStudioProjects\\GSRTC1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

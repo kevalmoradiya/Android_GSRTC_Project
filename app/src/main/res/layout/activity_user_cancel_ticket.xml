@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    tools:context=".Search_Bus_Details" >
+      <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:visibility="gone"
+          android:layout_marginLeft="100dp"/>
+
+      
+
+ <ScrollView  android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+ <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        </LinearLayout>
+ </ScrollView>
+ 
+</LinearLayout>
